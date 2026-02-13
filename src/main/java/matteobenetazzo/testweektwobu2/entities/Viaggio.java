@@ -26,7 +26,7 @@ public class Viaggio {
     @Column(nullable = false)
     private LocalDate data;
 
-    /* Ho deciso che lo stato del viaggio può essere IN_PROGRAMMA o COMPLETATO. */
+    // Ho deciso che lo stato del viaggio può essere IN_PROGRAMMA o COMPLETATO, in postman ho messo tutti in programma giusto per essere piu comodo
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private StatoViaggio stato;
